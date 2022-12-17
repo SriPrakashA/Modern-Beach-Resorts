@@ -1,0 +1,73 @@
+
+
+
+.banner{
+    width: 100%;
+    height: 87vh;
+    background-color: rgb(70, 134, 230);
+    /* background-image: url(//cart/public/images/defaultBcg2.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .banner-center{
+    width: 800px;
+    height: 300px;
+    background-color: rgba(34, 35, 36, 0.7);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.banner .banner-center h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+
+}
+.banner .banner-center h2{
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.banner .banner-center .empty-div{
+    width: 200px;
+    height: 3px;
+    background-color: #af9a7d;
+}
+.banner .banner-center button{
+    padding: 6px 10px;
+    font-size: 18px;
+    border: 0;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: #af9a7d;
+    
+}
+.banner .banner-center .our-rooms{
+    text-decoration: none;
+    color: #222;
+}
+
+@media only screen and (max-width:768px){
+    .banner .banner-center h1{
+        font-size: 37px;
+    }
+    .banner .banner-center h2{
+        font-size: 15px;
+    }
+    .banner .banner-center{
+        width: 400px;
+        height: 200px;
+    }
+    .banner{
+        height: 45vh;
+    }
+}

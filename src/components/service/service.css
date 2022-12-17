@@ -1,0 +1,39 @@
+.service{
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    padding: 20px 40px 40px 40px;
+}
+.service .service-head{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.service .service-head h2{
+    font-size: 36px;
+    opacity: 0.9;
+}
+.service .service-head .empty-service{
+    width: 100px;
+    height: 4px;
+    background-color: #af9a7d;
+}
+.service .service-all-list{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit,minmax(255px,1fr));
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.service-all-list .service-list div{
+    font-size: 20px;
+}
+.service-all-list .service-list h2{
+margin-bottom: 15px;
+font-size: 20px;
+opacity: 0.9;
+}

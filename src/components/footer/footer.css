@@ -1,0 +1,30 @@
+.footer{
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 35px 7px;
+}
+.footer h2{
+    font-size: 28px;
+}
+.footer h2 span{
+    color: #af9a7d;
+}
+.footer h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+@media only screen and (max-width:768px){
+    .footer h2{
+        font-size: 20px;
+    }
+    
+    .footer h3{
+        font-size: 14px;
+    }
+}
