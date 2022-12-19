@@ -57,6 +57,7 @@
       display: block;
       border: 0;
       cursor: pointer;
+        background-color: transparent;
     }
     .header .nav-btn i{
         font-size: 25px;
@@ -78,7 +79,7 @@
     }
     
     .header .navbar .nav-links.active{
-        top: 75px;
+        top: 70px;
         /* z-index: 1; */
     }
     .header .navbar .fullname{
